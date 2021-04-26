@@ -55,7 +55,7 @@ main {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 3px auto;
+  padding: 3px;
   background-color: #ff9a4b;
   color: #fff;
 }
@@ -66,5 +66,32 @@ main {
 
 footer {
   height: 50px;
-  background-color: #aaaaaa;
+  background-color: #aaa
 }
+
+@media screen and (max-width: 768px) {
+  header{
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+    
+  }
+
+  .step-box {
+    width: 90%;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .step-box:last-child{
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  footer{
+    width: 100%;
+  }
